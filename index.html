@@ -2,7 +2,7 @@
 <html lang="it">
   <head>
     <meta charset="UTF-8">
-    <title>Francesco Perlini - Sito personale</title>
+    <title>Bianca – Babysitter trilingue a Gaeta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -14,21 +14,21 @@
       }
 
       header {
-        background: linear-gradient(135deg, #1f2937, #111827);
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
         color: #f9fafb;
         text-align: center;
-        padding: 40px 16px;
+        padding: 32px 16px 24px;
       }
 
       header h1 {
         margin: 0 0 8px 0;
-        font-size: 32px;
+        font-size: 28px;
       }
 
       header p {
         margin: 0;
-        font-size: 16px;
-        opacity: 0.9;
+        font-size: 15px;
+        opacity: 0.95;
       }
 
       main {
@@ -74,84 +74,177 @@
         font-size: 13px;
       }
 
+      .pricing-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 8px;
+        font-size: 14px;
+      }
+
+      .pricing-table th,
+      .pricing-table td {
+        border: 1px solid #e5e7eb;
+        padding: 10px;
+        text-align: left;
+      }
+
+      .pricing-table th {
+        background-color: #f9fafb;
+      }
+
+      .highlight {
+        background-color: #eff6ff;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .btn-whatsapp {
+        background-color: #22c55e;
+        color: #ffffff;
+      }
+
+      .btn-email {
+        background-color: #111827;
+        color: #ffffff;
+      }
+
+      .btn:hover {
+        opacity: 0.9;
+      }
+
       footer {
         text-align: center;
         padding: 16px;
         font-size: 13px;
         color: #6b7280;
       }
-
-      @media (min-width: 768px) {
-        header h1 {
-          font-size: 40px;
-        }
-        header p {
-          font-size: 18px;
-        }
-      }
     </style>
   </head>
 
   <body>
     <header>
-      <h1>Francesco Perlini</h1>
-      <p>Sito personale · esperimenti con web, dati e business planning</p>
+      <h1>Bianca – Babysitter trilingue a Gaeta</h1>
+      <p>Babysitting solo la mattina per famiglie in vacanza con bambini piccoli</p>
     </header>
 
     <main>
       <section class="card">
-        <h2>Benvenuto nel mio primo sito</h2>
+        <h2>Chi è Bianca</h2>
         <p>
-          Questa è una semplice pagina creata per imparare come pubblicare un sito
-          statico utilizzando GitHub Pages. Qui farò prove, appunti e esperimenti
-          legati a progetti personali e professionali.
+          Bianca ha 13 anni, è un’adolescente solare e abituata da sempre a passare
+          le estati a Gaeta. La sua famiglia frequenta il Lido Viareggio da oltre
+          50 anni, e Bianca conosce bene la zona e la vita da spiaggia con i bambini.
+        </p>
+        <p>
+          Ha vissuto a Ginevra e ora a Washington, dove ha frequentato scuole
+          francesi e internazionali. Per questo parla fluentemente
+          <strong>italiano, inglese e francese</strong>.
+        </p>
+        <div class="tag-list">
+          <span class="tag">13 anni</span>
+          <span class="tag">Italiano · Inglese · Francese</span>
+          <span class="tag">Estati a Gaeta da sempre</span>
+          <span class="tag">Adatta a bambini piccoli</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Quando è disponibile</h2>
+        <p>
+          Bianca è disponibile per babysitting <strong>solo la mattina</strong>,
+          così il resto della giornata può dedicarlo allo studio e ai suoi amici.
+        </p>
+        <p>
+          Orari indicativi: <strong>circa 8:30 – 13:00</strong>, da concordare
+          insieme in base alle esigenze della famiglia.
+        </p>
+        <p>
+          Servizio ideale per famiglie in vacanza a Gaeta con bambini piccoli che
+          vogliono godersi la spiaggia e avere un aiuto dedicato nelle ore del
+          mattino.
         </p>
       </section>
 
       <section class="card">
-  <h2>Chi sono</h2>
-  <p>
-    Mi occupo di business planning, fund structuring e analisi dei dati.
-    Uso strumenti digitali per progettare, pianificare e prendere decisioni
-    basate sui numeri.
-  </p>
-  <div class="tag-list">
-    <span class="tag">Business planning</span>
-    <span class="tag">Data analysis</span>
-    <span class="tag">Project management</span>
-  </div>
-  <p style="margin-top: 16px;">
-    <a href="mailto:francesco.perlini@example.com"
-       style="
-         display: inline-block;
-         padding: 10px 18px;
-         background-color: #2563eb;
-         color: #ffffff;
-         text-decoration: none;
-         border-radius: 999px;
-         font-size: 14px;
-       ">
-      Contattami
-    </a>
-  </p>
-</section>
-      
-      <section class="card">
-        <h2>Cosa voglio costruire qui</h2>
+        <h2>Servizi e prezzi</h2>
         <p>
-          L’obiettivo è trasformare questa pagina di prova in uno spazio dove
-          raccogliere idee, esperimenti tecnici, mini‑tool e documentazione utile
-          per i progetti futuri.
+          Bianca può occuparsi dei bambini parlando con loro solo in italiano,
+          oppure alternando italiano, inglese e francese in modo naturale durante
+          il gioco.
         </p>
+
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th>Servizio</th>
+              <th>Lingue</th>
+              <th>Prezzo indicativo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Babysitting mattina</td>
+              <td>Solo italiano</td>
+              <td>8 € / ora</td>
+            </tr>
+            <tr class="highlight">
+              <td>Babysitting mattina</td>
+              <td>Italiano + inglese</td>
+              <td>10 € / ora</td>
+            </tr>
+            <tr>
+              <td>Babysitting mattina</td>
+              <td>Italiano + inglese + francese</td>
+              <td>12 € / ora</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p style="margin-top: 10px; font-size: 13px; color: #6b7280;">
+          I prezzi sono indicativi e possono essere adattati in base al numero di
+          bambini, ai giorni e alla durata del servizio.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Come contattare Bianca</h2>
         <p>
-          Questo sito è anche un “laboratorio” per testare automazioni, connettori
-          e modalità di pubblicazione semplificata.
+          Per informazioni o per verificare la disponibilità, è sufficiente inviare
+          un messaggio con:
+        </p>
+        <ul style="margin-top: 4px; margin-bottom: 10px; padding-left: 20px; font-size: 15px;">
+          <li>Nome e età del bambino / dei bambini</li>
+          <li>Periodo indicativo (date di arrivo e partenza a Gaeta)</li>
+          <li>Orari preferiti per la mattina</li>
+          <li>Lingue desiderate (italiano, inglese, francese)</li>
+        </ul>
+
+        <p style="margin-top: 16px;">
+          <a href="https://wa.me/39NUMEROTELEFONO" class="btn btn-whatsapp" target="_blank">
+            Scrivi su WhatsApp
+          </a>
+          &nbsp;&nbsp;
+          <a href="mailto:EMAIL_DI_BIANCA@example.com" class="btn btn-email">
+            Invia una email
+          </a>
+        </p>
+
+        <p style="margin-top: 10px; font-size: 13px; color: #6b7280;">
+          Sostituisci questo testo con il numero WhatsApp e l’indirizzo email
+          che preferisci usare per i contatti di Bianca.
         </p>
       </section>
     </main>
 
     <footer>
-      © 2026 · Sito di prova pubblicato con GitHub Pages
+      © 2026 · Babysitting mattina a Gaeta · Bianca
     </footer>
   </body>
 </html>
